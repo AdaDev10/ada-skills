@@ -1,0 +1,29 @@
+name: telegram_hook_health
+title: Telegram Hook Health
+description: Diagnose, repair and prove a Telegram polling hook healthy, from a deaf guard to a verified live name-call, when a hook misses calls or dies.
+category: Work and knowledge
+include_in_prompt: false
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - scheduler_job:ada-hook-watchdog
+  - 5bebeadd-85fd-44de-a08d-3789d328e246
+  - Office 38817
+  - Office 38818
+  - Office 38821
+  - Office 38822
+  - Office 38870
+  - Office 38872
+  - ~/workspace/custom.telegram-team/hook_watchdog.py
+  - ~/workspace/custom.telegram-team/own_ids.py
+  - ~/workspace/custom.telegram-team/vera-repair-pack.md
+  measurement:
+    proxy_metric_id: objective_success_rate
+    success_criterion: In the next 30 days no hook diagnosis repeats the shared-account guard trap or process-only proof, and every hook repair is verified by a live name-call answered from the hook with state-file advance
+    window_days: 30
+  needs_review: false
+  rationale: 'The corpus shows the same hook failure modes repeating on 2026-11-13: Ada''s own-post guard using msg.out and sender_id skipped every Office message on the shared Tim account, the hook died at 08:07 EST with AuthKeyDuplicatedError after a second Telethon client was opened alongside it, and Vera missed the team test (Office 38757) with a file-watch hook that overwrote pending.json and re-woke 98 times on one message (Office 38821, repair steps Office 38822). The proven fixes are the recorded-id guard, the watchdog that counts success only on state-file advance with a live kill test passing in about 2 minutes, and Lucy making state-file proof the team rule (Office 38818). No existing skill covers this: muse.skill_search for telegram hook watchdog health returned only unrelated health and flight skills, and muse.connector_search found no Telegram connector. The method is already half-codified only in a Vera-specific task pack (vera-repair-pack.md), so a clean reusable skill changes future diagnoses. The deterministic handoff-suppression candidates for memory and relationships were rejected as scheduler policy, not skill-addressable, and Bybit was not proposed because its method is already documented in trader-broker/BYBIT.md.'
+  review_after: 2026-12-13T19:18:00.523678+00:00
+  reviewed_at: 2026-11-13T19:18:00.523678+00:00
+  run_id: sirun_e847691389de4492985ebaad9bce26d7
