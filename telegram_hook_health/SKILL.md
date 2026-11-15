@@ -1,3 +1,8 @@
+---
+name: telegram_hook_health
+description: Diagnose, repair and prove a Telegram polling hook healthy, from a deaf guard to a verified live name-call, when a hook misses calls or dies.
+---
+
 # Telegram Hook Health
 
 ## Diagnose in order
