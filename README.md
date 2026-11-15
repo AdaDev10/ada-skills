@@ -63,6 +63,18 @@ snapshot used for publishing. The style bible (`references/STYLE_BIBLE.md`),
 the style reports (`references/reports/*.md`) and all templates are
 included.
 
+### `team-management`
+
+Manage a team of agents' assignments in a shared `TASKS.md` file — record
+assignments as they are given in Office, track each agent's status
+(Queued / In progress / Blocked / In review / Done), follow up on silent
+or overdue agents, and keep deadlines visible. Written for Lucy, the
+team's manager. Adapted from Anthropic's `task-management` skill
+(knowledge-work-plugins), rewritten from a personal to-do list into a
+team-assignment tracker: the Claude Code dashboard and slash command were
+removed (they do not exist in Muse), and team ownership, follow-up on
+silence, and the weekly rhythm were added.
+
 ## Sources and attribution
 
 - The day-trader skills are adapted from the
@@ -72,6 +84,9 @@ included.
 - `cartoon-3d-short` is adapted from
   [Claude Animated Shorts](https://github.com/mromidev/claude-animated-shorts).
 - `telegram_hook_health` is Ada's own work.
+- `team-management` is adapted from Anthropic's `task-management` skill
+  ([knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins)),
+  rewritten for team management (see the skill for what changed).
 
 ## License
 
